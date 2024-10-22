@@ -44,6 +44,25 @@ This application generates weekly solar energy forecast reports using template f
 
 5. The application will display progress and notify you when the report generation is complete.
 
+## Creating an Executable with PyInstaller
+
+To create a standalone executable file for the application, you can use PyInstaller. This allows you to distribute the application without requiring users to have Python installed.
+
+1. Install PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. Generate the executable:
+   ```bash
+   pyinstaller --onefile --windowed report.py
+   ```
+
+   - `--onefile`: Creates a single executable file.
+   - `--windowed`: Suppresses the console window (useful for GUI applications).
+
+3. The executable will be located in the `dist` directory.
+
 ## Logging
 
 - Logs are saved to `app.log` in the project directory.
