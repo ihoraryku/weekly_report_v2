@@ -78,4 +78,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Contact
 
-For questions or feedback, please contact [Your Name] at [Your Email].
+For questions or feedback, please contact Ihor Aryku at igorarycu@gmail.com.
