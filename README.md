@@ -12,9 +12,11 @@ This application generates weekly solar energy forecast reports using template f
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12
 - PyQt5
 - OpenPyXL
+
+For the exact versions of these and other dependencies, please refer to the `requirements.txt` file.
 
 ## Installation
 
